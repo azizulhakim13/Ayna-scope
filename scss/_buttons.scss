@@ -1,3 +1,11 @@
 .btn-danger {
     --#{$prefix}btn-active-bg: #f4181c;
+    --#{$prefix}btn-hover-border-color: #f4181c;
+    --#{$prefix}btn-hover-bg: transparent;
+  }
+
+  .btn-dark {
+    --#{$prefix}btn-hover-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-border-color: var(--#{$prefix}dark);
+    --#{$prefix}btn-hover-bg: var(--#{$prefix}white);
   }

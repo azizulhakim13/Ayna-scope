@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.013" x2="0.5" y2="1.011" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="1" stop-color="#111"/>
+    </linearGradient>
+    <clipPath id="clip-apple_tv">
+      <rect width="34" height="34"/>
+    </clipPath>
+  </defs>
+  <g id="apple_tv" data-name="apple tv" clip-path="url(#clip-apple_tv)">
+    <g id="Group_2523" data-name="Group 2523" transform="translate(-10806 -1992)">
+      <rect id="Rectangle_462" data-name="Rectangle 462" width="32" height="32" rx="8" transform="translate(10807 1993)" fill="url(#linear-gradient)"/>
+      <path id="Path_5153" data-name="Path 5153" d="M25.324,42.274a2.753,2.753,0,0,1,1.316-2.316,2.846,2.846,0,0,0-2.226-1.207c-.946-.1-1.85.561-2.33.561s-1.221-.545-2.007-.528a2.97,2.97,0,0,0-2.526,1.524c-1.072,1.861-.281,4.62.772,6.13.511.735,1.123,1.569,1.92,1.538s1.061-.5,1.993-.5,1.193.5,2.01.48,1.353-.752,1.861-1.493a6.629,6.629,0,0,0,.842-1.732A2.675,2.675,0,0,1,25.324,42.274Zm-1.53-4.519a2.678,2.678,0,0,0,.632-1.945,2.728,2.728,0,0,0-1.782.923A2.526,2.526,0,0,0,22,38.614,2.245,2.245,0,0,0,23.794,37.755Z" transform="translate(10793.901 1966.401)" fill="#f9f9f9" fill-rule="evenodd"/>
+      <path id="Path_5154" data-name="Path 5154" d="M60.332,44.218v-1.4H58.623V40.85H57.1v1.965H55.78v1.4H57.1v5.094a2.282,2.282,0,0,0,2.279,2.279h.761v-1.51h-.761a.763.763,0,0,1-.761-.769V44.218Zm7.1-1.8-2.279,6.843-2.282-6.843H61.351l3.042,9.136h1.521l3.04-9.125Z" transform="translate(10766.035 1962.775)" fill="#f9f9f9"/>
+    </g>
+  </g>
+</svg>
