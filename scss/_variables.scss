@@ -1,9 +1,12 @@
 // Body font family
-$primary: #3c93d0;
-$secondary: #1b8633;
+// $primary: #3c93d0;
+// $secondary: #1b8633;
+$color-1: #f4181c;
+$color-2: #006b25;
 $dark: #000000;
 $white: #ffffff;
-$dark-1: #20222E;
+$dark-1: #003333;
+$dark-2: #12222d;   //deep
 // DC3545
 // Toggle global options
 $prefix: bs-;
@@ -31,6 +34,8 @@ $spacers: (
   85: $spacer * 5.3125,
   100: $spacer * 6.25,
   120: $spacer * 7.5,
+  150: $spacer * 9.375,
+  216: $spacer * 13.5,
 );
 
 $font-size-base: 0.9375rem;
@@ -55,9 +60,10 @@ $link-decoration: none;
 $font-family-sans-serif: 'Poppins', sans-serif;
 
 // Buttons
-$btn-padding-y: 6px;
-$btn-padding-x: 1rem;
+$btn-padding-y: 10px;
+$btn-padding-x: 1.5rem;
 $btn-border-radius: 4px;
+$btn-font-size: 1rem;
 $input-btn-font-family: 'Poppins', sans-serif;
 
 // Navbar
