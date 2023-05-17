@@ -1,4 +1,7 @@
 // NAvbar
+.nav {
+    --#{$prefix}nav-link-padding-x: .75rem;
+}
 .navbar {
     background-color: rgba(0, 0, 0, 0.75);
     position: fixed;
@@ -52,10 +55,25 @@
 .map-style {
     height: 500px;
     margin-bottom: -7px;
-  }
-  
+}
 
 // footer
 footer li a {
     --#{$prefix}link-color: #fff;   
 }
+
+.footer-widget-4 {
+    .social-icons {
+      a {
+        color: $dark;
+        padding: 7px 14px;
+        border-radius: 4px;
+        background-color: $white;
+  
+        &:hover {
+          color: #fff;
+          background-color: $color-1;
+        }
+      }
+    }
+  }
