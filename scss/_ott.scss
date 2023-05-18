@@ -1,0 +1,54 @@
+.ott-hero {
+    background-image: linear-gradient(to right, black 40%, transparent 58%), url('../../assets/images/hero.png');
+    background-position: right top;
+    height: 500px;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    background-size: cover;
+}
+
+// our-services
+.our-services {
+    .tittle {
+      h2,p {
+        width: 50%;
+      }
+    }
+    .our-services-column {
+      overflow: hidden;
+      .fa-solid {
+        color: #0948b3;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        right: -55px;
+        width: 95px;
+        height: 95px;
+        bottom: -50px;
+        border-radius: 35px;
+        background-color: #0948b3;
+        -webkit-transition: all .3s;
+        transition: $transition-base-lg;
+        z-index: -1;
+      }
+      &:hover:before {
+        color: #fff;
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        background-color: #0948b3;
+        transition: $transition-base-lg;
+      }
+      &:hover {
+        .fa-solid,h5,p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  

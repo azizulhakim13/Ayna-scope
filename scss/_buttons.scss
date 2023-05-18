@@ -4,6 +4,12 @@
     --#{$prefix}btn-hover-bg: transparent;
     // --#{$prefix}btn-hover-color: #f4181c;
   }
+  
+  .btn-primary {
+    --#{$prefix}btn-hover-border-color: #fff;
+    --#{$prefix}btn-hover-bg: transparent;
+    // --#{$prefix}btn-hover-color: #f4181c;
+  }
 
   .btn-dark {
     --#{$prefix}btn-hover-color: var(--#{$prefix}dark);

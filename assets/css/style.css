@@ -16447,13 +16447,13 @@ fieldset:disabled .btn {
 
 .contact-header {
   background-image: linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%), linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%), url("../../assets/images/contact-hero.png");
-  height: 350px;
+  height: 300px;
   background-position: center center;
   background-size: cover;
 }
 
 .contact-header .inner-text {
-  padding-top: 170px;
+  padding-top: 120px;
 }
 
 .hero-home {
@@ -16499,6 +16499,10 @@ footer li a {
   background-color: #f4181c;
 }
 
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
 @media (max-width: 980px) {
   .hero-home {
     height: 100vh;
@@ -16507,7 +16511,7 @@ footer li a {
     width: 100%;
   }
   .contact-header .inner-text {
-    padding-top: 250px;
+    padding-top: 120px;
   }
   .map-style {
     height: 300px;
@@ -16520,9 +16524,76 @@ footer li a {
   --bs-btn-hover-bg: transparent;
 }
 
+.btn-primary {
+  --bs-btn-hover-border-color: #fff;
+  --bs-btn-hover-bg: transparent;
+}
+
 .btn-dark {
   --bs-btn-hover-color: var(--bs-dark);
   --bs-btn-hover-border-color: var(--bs-dark);
   --bs-btn-hover-bg: var(--bs-white);
+}
+
+.ott-hero {
+  background-image: linear-gradient(to right, black 40%, transparent 58%), url("../../assets/images/hero.png");
+  background-position: right top;
+  height: 500px;
+  background-repeat: no-repeat;
+  min-width: 300px;
+  background-size: cover;
+}
+
+.our-services .tittle h2, .our-services .tittle .h2, .our-services .tittle p {
+  width: 50%;
+}
+
+.our-services .our-services-column {
+  overflow: hidden;
+}
+
+.our-services .our-services-column .fa-solid {
+  color: #0948b3;
+}
+
+.our-services .our-services-column:before {
+  content: "";
+  position: absolute;
+  right: -55px;
+  width: 95px;
+  height: 95px;
+  bottom: -50px;
+  border-radius: 35px;
+  background-color: #0948b3;
+  transition: all 0.4s ease-in-out;
+  z-index: -1;
+}
+
+.our-services .our-services-column:hover:before {
+  color: #fff;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background-color: #0948b3;
+  transition: all 0.4s ease-in-out;
+}
+
+.our-services .our-services-column:hover .fa-solid, .our-services .our-services-column:hover h5, .our-services .our-services-column:hover .h5, .our-services .our-services-column:hover p {
+  color: #fff;
+}
+
+.project-header {
+  background-image: linear-gradient(65.68deg, rgba(0, 8, 29, 0.6) 9.51%, rgba(53, 13, 49, 0.6) 72.89%, rgba(132, 5, 25, 0.6) 101.01%), linear-gradient(102.21deg, rgba(0, 0, 0, 0.04) 16.09%, rgba(1, 1, 1, 0.17) 39.27%, rgba(1, 1, 1, 0.24) 64.25%, rgba(4, 4, 4, 0.8) 96.63%), url("../../assets/images/hero.png");
+  height: 300px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.project-header .inner-text {
+  padding-top: 120px;
 }
 /*# sourceMappingURL=style.css.map */
