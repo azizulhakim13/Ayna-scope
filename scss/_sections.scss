@@ -1,3 +1,8 @@
+// Body
+body {
+    overflow-x: hidden;
+}
+
 // NAvbar
 .nav {
     --#{$prefix}nav-link-padding-x: .75rem;
@@ -80,4 +85,9 @@ footer li a {
 
   .dropdown:hover .dropdown-menu{
     display: block;
+}
+
+// accordion
+.accordion-button {
+    background-color: #f0f8ff;
 }

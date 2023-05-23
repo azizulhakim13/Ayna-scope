@@ -16,9 +16,13 @@
     }
     .our-services-column {
       overflow: hidden;
-      .fa-solid {
-        color: #0948b3;
+      
+      svg {
+        color: $primary;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
       }
+
       &:before {
         content: "";
         position: absolute;
@@ -27,7 +31,7 @@
         height: 95px;
         bottom: -50px;
         border-radius: 35px;
-        background-color: #0948b3;
+        background-color: $primary;
         -webkit-transition: all .3s;
         transition: $transition-base-lg;
         z-index: -1;
@@ -41,14 +45,17 @@
         width: 100%;
         height: 100%;
         border-radius: 0;
-        background-color: #0948b3;
+        background-color: $primary;
         transition: $transition-base-lg;
       }
       &:hover {
-        .fa-solid,h5,p {
+        svg, h5,p {
           color: #fff;
         }
       }
     }
   }
-  
+
+  .adv-ott{
+    background-color: #f0f8ff;
+  }
