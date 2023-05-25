@@ -97,7 +97,6 @@ footer li a {
 }
 
 // go-top
-// go to top 2
 .go-top.active {
     bottom: 4rem;
     opacity: 1;
@@ -124,4 +123,9 @@ footer li a {
   .go-top:hover, .go-top:focus {
     background-color: $color-1;
     color: #ffffff;
-  }
+}
+
+// faq
+.faq {
+    background-color: #f0ffff;
+}

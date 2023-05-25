@@ -1,32 +1,28 @@
-// iptv-hero
-.iptv-hero {
+.vod-hero {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../../assets/images/hero.png');
     height: 550px;
     background-position: center center;
     background-size: cover;
 }
 
-.iptv-features {
-    .feature-inner {
-        border: 1px solid rgba(0,0,0,0.1);
-        border-radius: 8px;
-
-        &:hover {
-            border: 1px solid rgba(0,0,0,1);
-        }
-    }
-}
-
-.iptv-whyus {
+.vod-whyus {
     .inner {
+        padding: 1rem;
+        border: 1px solid rgba(0,0,0,0.2);
+        border-radius: 6px;
+        border-bottom: 5px solid rgba(0,0,0,0.2);
+        
         &:hover {
             svg {
                 color: $color-1;
             }
+
+            border: 1px solid $color-1;
+            border-bottom: 5px solid $color-1;
         }
     }
 }
 
-.iptv-section {
+.vod-section {
     background-color: #f0f8ff;
 }

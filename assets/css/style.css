@@ -16542,6 +16542,10 @@ footer li a {
   color: #ffffff;
 }
 
+.faq {
+  background-color: #f0ffff;
+}
+
 @media (max-width: 980px) {
   .hero-home {
     height: 100vh;
@@ -16643,8 +16647,8 @@ footer li a {
 }
 
 .iptv-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/images/hero.png");
-  height: 450px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/images/hero.png");
+  height: 550px;
   background-position: center center;
   background-size: cover;
 }
@@ -16663,6 +16667,33 @@ footer li a {
 }
 
 .iptv-section {
+  background-color: #f0f8ff;
+}
+
+.vod-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/images/hero.png");
+  height: 550px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.vod-whyus .inner {
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+.vod-whyus .inner:hover {
+  border: 1px solid #f4181c;
+  border-bottom: 5px solid #f4181c;
+}
+
+.vod-whyus .inner:hover svg {
+  color: #f4181c;
+}
+
+.vod-section {
   background-color: #f0f8ff;
 }
 /*# sourceMappingURL=style.css.map */
