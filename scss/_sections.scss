@@ -56,7 +56,7 @@ body {
 }
 
 // Iptv
-.iptv, .vod, .syndication, .adds {
+.iptv, .vod, .livetv, .aggregation, .livetv-main, .fast-main, .ads-main{
     background-color: $dark-1;
 }
 
@@ -87,7 +87,7 @@ footer li a {
     }
   }
 
-  .dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu{
     display: block;
 }
 
@@ -128,4 +128,24 @@ footer li a {
 // faq
 .faq {
     background-color: #f0ffff;
+}
+
+// livetv-feature
+.livetv-feature, .feature-fast, .feature-ads {
+    .inner {
+        background-color: #fff;
+        padding: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 7px solid rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+
+        &:hover {
+            svg {
+                color: $color-1;
+            }
+
+            border: 1px solid $color-1;
+            border-bottom: 7px solid $color-1;
+        }
+    }
 }

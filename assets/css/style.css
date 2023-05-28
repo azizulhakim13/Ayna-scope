@@ -16482,7 +16482,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.iptv, .vod, .syndication, .adds {
+.iptv, .vod, .livetv, .aggregation, .livetv-main, .fast-main, .ads-main {
   background-color: #333333;
 }
 
@@ -16544,6 +16544,23 @@ footer li a {
 
 .faq {
   background-color: #f0ffff;
+}
+
+.livetv-feature .inner, .feature-fast .inner, .feature-ads .inner {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 7px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.livetv-feature .inner:hover, .feature-fast .inner:hover, .feature-ads .inner:hover {
+  border: 1px solid #f4181c;
+  border-bottom: 7px solid #f4181c;
+}
+
+.livetv-feature .inner:hover svg, .feature-fast .inner:hover svg, .feature-ads .inner:hover svg {
+  color: #f4181c;
 }
 
 @media (max-width: 980px) {
