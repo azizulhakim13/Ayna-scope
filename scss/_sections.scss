@@ -56,7 +56,17 @@ body {
 }
 
 // Iptv
-.iptv, .vod, .livetv, .aggregation, .livetv-main, .fast-main, .ads-main{
+.iptv, 
+.vod, 
+.livetv, 
+.aggregation, 
+.livetv-main, 
+.fast-main, 
+.ads-main, 
+.syndication-main, 
+.aggregation-main,
+.cdn-main
+{
     background-color: $dark-1;
 }
 
@@ -131,7 +141,12 @@ footer li a {
 }
 
 // livetv-feature
-.livetv-feature, .feature-fast, .feature-ads {
+.livetv-feature, 
+.feature-fast, 
+.feature-ads, 
+.syndication-feature, 
+.aggregation-feature, 
+.cdn-features {
     .inner {
         background-color: #fff;
         padding: 1rem;

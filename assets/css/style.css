@@ -16482,7 +16482,16 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.iptv, .vod, .livetv, .aggregation, .livetv-main, .fast-main, .ads-main {
+.iptv,
+.vod,
+.livetv,
+.aggregation,
+.livetv-main,
+.fast-main,
+.ads-main,
+.syndication-main,
+.aggregation-main,
+.cdn-main {
   background-color: #333333;
 }
 
@@ -16546,7 +16555,12 @@ footer li a {
   background-color: #f0ffff;
 }
 
-.livetv-feature .inner, .feature-fast .inner, .feature-ads .inner {
+.livetv-feature .inner,
+.feature-fast .inner,
+.feature-ads .inner,
+.syndication-feature .inner,
+.aggregation-feature .inner,
+.cdn-features .inner {
   background-color: #fff;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -16554,12 +16568,22 @@ footer li a {
   border-radius: 8px;
 }
 
-.livetv-feature .inner:hover, .feature-fast .inner:hover, .feature-ads .inner:hover {
+.livetv-feature .inner:hover,
+.feature-fast .inner:hover,
+.feature-ads .inner:hover,
+.syndication-feature .inner:hover,
+.aggregation-feature .inner:hover,
+.cdn-features .inner:hover {
   border: 1px solid #f4181c;
   border-bottom: 7px solid #f4181c;
 }
 
-.livetv-feature .inner:hover svg, .feature-fast .inner:hover svg, .feature-ads .inner:hover svg {
+.livetv-feature .inner:hover svg,
+.feature-fast .inner:hover svg,
+.feature-ads .inner:hover svg,
+.syndication-feature .inner:hover svg,
+.aggregation-feature .inner:hover svg,
+.cdn-features .inner:hover svg {
   color: #f4181c;
 }
 
